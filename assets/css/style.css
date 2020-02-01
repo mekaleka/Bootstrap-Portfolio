@@ -3,15 +3,20 @@
     height: 80px;
 }
 
-.name {
-    font-size: 50px;
+.my-name {
+    color: black;
+    margin-left: 410px;
+    font-size: 35px;
+    padding: 10px;
+    background-color: turquoise;
+    font-family: sans-serif;
 }
 
 .my-container {
-    border: 0px solid black;
     height: 575px;
-    background-image: url(https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-image: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 }
+
 .my-col1 {
     padding-left: 50px;
 }
@@ -38,4 +43,5 @@
   
   .footer {
     background-color: #343a40;
+    height: 90px;
   }
