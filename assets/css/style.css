@@ -11,6 +11,10 @@
     background-color: turquoise;
     font-family: sans-serif;
 }
+.spacing {
+    border-left: solid;
+    border-right: solid;
+}
 
 .my-container {
     height: 575px;
