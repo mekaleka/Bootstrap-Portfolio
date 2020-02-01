@@ -12,6 +12,19 @@
     height: 575px;
     background-image: url(https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 }
+.my-col1 {
+    padding-left: 50px;
+}
+
+.my-col2 {
+    background-color: white;
+  width: 575px;
+  height: 400px;
+  outline-offset: 0px;
+  border: 3px solid grey;
+  padding: 50px;
+  margin-top: 75px;
+}
 
 /* Custom page CSS
 -------------------------------------------------- */
