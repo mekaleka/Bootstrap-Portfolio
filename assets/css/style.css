@@ -3,6 +3,14 @@
     height: 80px;
 }
 
+.background-image {
+    width: inherit;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+
 .my-name {
     color: black;
     margin-left: 410px;
@@ -18,7 +26,6 @@
 
 .my-container {
     height: 575px;
-    background-image: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 }
 
 .my-col1 {
