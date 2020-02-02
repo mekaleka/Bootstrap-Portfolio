@@ -33,7 +33,7 @@ body {
     height: 575px;
     margin-top: 50px;
 }
-.my-container2 {
+.my-container-2 {
     border: 1px solid gray;
     height: 575px;
     margin-top: 35px;
@@ -44,6 +44,11 @@ body {
 /*need to float img and combine img & Lorum into 1 row & col*/
 img {
     float: left;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    shape-outside: image();
+    margin: 20px 20px 20px 0;
 }
 
 .my-col1 {
@@ -74,3 +79,19 @@ img {
     height: 60px;
 
   }
+
+  .my-container-p {
+      border: 1px solid grey
+  }
+
+  .my-row-p {
+    border: 1px solid grey;
+  }
+
+  .my-col-p {
+    border: 1px solid grey;
+  }
+  
+
+
+  
