@@ -1,6 +1,6 @@
 
 .navbar-brand {
-    height: 80px;
+    height: 60px;
 }
 
 .background-image {
@@ -13,9 +13,9 @@ body {
 
 .my-name {
     color: black;
-    margin-left: 410px;
+    margin-left: 453px;
     font-size: 35px;
-    padding: 10px;
+    padding: 20px;
     background-color: turquoise;
     font-family: sans-serif;
 }
@@ -27,6 +27,13 @@ body {
 .my-container {
     height: 575px;
 }
+.my-container2 {
+    border: 1px solid gray;
+    height: 575px;
+    margin-top: 50px;
+    background-color: white;
+}
+
 
 .my-col1 {
     padding-left: 50px;
@@ -37,14 +44,15 @@ body {
   width: 575px;
   height: 475px;
   outline-offset: 0px;
-  border: 3px solid grey;
+  border: 2px solid grey;
   padding: 50px;
   margin-top: 50px;
 }
 
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
+.my-col1-2 {
+    background-color: white;
+
+}
 
 .container {
     width: auto;
@@ -54,5 +62,6 @@ body {
   
   .footer {
     background-color: #343a40;
-    height: 90px;
+    height: 110px;
+
   }
