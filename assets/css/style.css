@@ -8,20 +8,29 @@ body {
 }
 
 .my-name {
-    color: black;
+    color: white;
     margin-left: 453px;
-    font-size: 35px;
+    font-size: 34px;
     padding: 20px;
-    background-color: turquoise;
+    background-color: teal;
     font-family: sans-serif;
 }
 
-.my-name2 {
-    color: black;
+.my-name-contact {
+    color: white;
     margin-left: 405px;
-    font-size: 35px;
+    font-size: 34px;
     padding: 20px;
-    background-color: turquoise;
+    background-color: teal;
+    font-family: sans-serif;
+}
+
+.my-name-portfolio {
+    color: white;
+    margin-left: 405px;
+    font-size: 34px;
+    padding: 20px;
+    background-color: teal;
     font-family: sans-serif;
 }
 .spacing {
@@ -39,6 +48,18 @@ body {
     margin-top: 35px;
     margin-bottom: 35px;
     background-color: white;
+}
+
+.my-container-p {
+    border: 1px solid gray;
+    height: 600px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+h1 {
+    color: teal;
 }
 
 /*need to float img and combine img & Lorum into 1 row & col*/
@@ -77,20 +98,27 @@ img {
   .footer {
     background-color: #343a40;
     height: 60px;
-
   }
 
-  .my-container-p {
-      border: 1px solid grey
+  .my-row1-p {
+    height: 50px;
+  }
+
+  .portfolio {
+    font-size: 40px;
+    margin-top: 20px;
+    line-height: .8;
+    color: teal;
   }
 
   .my-row-p {
-    border: 1px solid grey;
+    height: 150px;
   }
 
   .my-col-p {
     border: 1px solid grey;
   }
+
   
 
 

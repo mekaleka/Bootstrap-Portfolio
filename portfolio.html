@@ -14,9 +14,10 @@
 
 <body>
 
-    <header>
+    <main>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" class="navbar1" href="#"><strong class="my-name">Michael J. Plichta</strong></a>
+            <a class="navbar-brand" class="navbar1" href="#"><strong class="my-name-portfolio">Michael J.
+                    Plichta</strong></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,43 +38,55 @@
                 </ul>
             </div>
         </nav>
-    </header>
-
-    <main>
+        <!--I added a container for my profile page column and rows layout-->
         <div class="container my-container-p">
-            <div class="row my-row-p">
-                <div class="col-md-4 my-col-p">
+            <!--I added a layout for my portfolio header-->
+            <div class="row justify-content-around my-row1-p">
+                <div class="col-md-12">
+                    <h1 class="portfolio">Portfolio</h1>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-around my-row-p">
+                <div class="col-md-3 my-col-p">
                     this is row 1 col 1
                 </div>
-                <div class="col-md-4 my-col-p">
+                <div class="col-md-3 my-col-p">
                     this is row 1 col 2
                 </div>
-                <div class="col-md-4 my-col-p">
+                <div class="col-md-3 my-col-p">
                     this is row 1 col 3
                 </div>
             </div>
-            <div class="row my-row-p">
-                <div class="col-md-4 my-col-p">
+            <br>
+            <div class="row justify-content-around my-row-p">
+                <div class="col-md-3 my-col-p">
                     this is row 2 col 1
                 </div>
-                <div class="col-md-4 my-col-p">
+                <div class="col-md-3 my-col-p">
                     this is row 2 col 2
                 </div>
-                <div class="col-md-4 my-col-p">
+                <div class="col-md-3 my-col-p">
                     this is row 2 col 3
                 </div>
             </div>
-            <div class="row my-row-p">
-                <div class="col-md-6 my-col-p">
+            <br>
+            <div class="row justify-content-around my-row-p">
+                <div class="col-md-4 my-col-p">
                     this is row 3 col 1
                 </div>
-                <div class="col-md-6 my-col-p">
+                <div class="col-md-4 my-col-p">
                     this is row 3 col 2
                 </div>
             </div>
         </div>
     </main>
 
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text-muted"></span>
+        </div>
+    </footer>
 </body>
 
 </html>
