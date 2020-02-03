@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-image: url(https://cdn.pixabay.com/photo/2018/11/08/19/12/wall-3803151__340.jpg);
 }
 
 p {
@@ -47,7 +47,7 @@ h1 {
 }
 
 /*need to float img and combine img & Lorum into 1 row & col*/
-img {
+.profile-img {
     float: left;
     height: 200px;
     width: 200px;
@@ -68,44 +68,31 @@ img {
     width: auto;
     max-width: px;
     padding: 0 15px;
-  }
+}
   
-  .footer {
+.footer {
     background-color: #343a40;
     height: 60px;
-  }
+}
 
-  .footer-text {
+.footer-text {
     text-align: center;
-  }
+}
 
-  .my-row1-p {
+.my-row1-p {
     height: 50px;
-  }
+}
 
-  .portfolio {
+.portfolio {
     font-size: 40px;
     margin-top: 20px;
     line-height: .8;
     color: teal;
-  }
+}
 
-  .about-me {
+.about-me {
     font-size: 40px;
     margin-top: 20px;
     line-height: .8;
     color: teal;
-  }
-
-  .my-row-p {
-    height: 150px;
-  }
-
-  .my-col-p {
-    border: 1px solid grey;
-  }
-
-  
-
-
-  
+}
