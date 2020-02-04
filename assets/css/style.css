@@ -1,8 +1,4 @@
 
-.navbar-brand {
-    height: 60px;
-}
-
 body {
     background-image: url(https://cdn.pixabay.com/photo/2018/11/08/19/12/wall-3803151__340.jpg);
 }
@@ -12,11 +8,12 @@ p {
     line-height: 1.8em;
 }
 
+
 .my-name {
-    color: white;
-    margin-left: 175px;
+    color: white;    
     font-size: 34px;
     padding: 20px;
+   margin-left: -12px;
     background-color: teal;
     font-family: sans-serif;
 }
@@ -46,7 +43,6 @@ h1 {
     color: teal;
 }
 
-/*need to float img and combine img & Lorum into 1 row & col*/
 .profile-img {
     float: left;
     height: 200px;
@@ -64,10 +60,12 @@ h1 {
     background-color: white;
 }
 
-.container {
+.footer-container {
     width: auto;
     max-width: px;
     padding: 0 15px;
+    /*need to get this border top to work*/
+    border-top: 1px teal;
 }
   
 .footer {
@@ -96,3 +94,46 @@ h1 {
     line-height: .8;
     color: teal;
 }
+
+@media screen and (max-width: 1200px) {
+    
+    .my-name {
+     
+       margin-left: 5px;
+     
+    }
+       
+}
+
+@media screen and (max-width: 992px) {
+    
+    .my-name {
+ 
+    margin-left: 5px;
+ 
+    }
+   
+}
+
+@media screen and (max-width: 768px) {
+    
+    .my-name {
+     
+    margin-left: 5px;
+     
+    }
+       
+}
+
+@media screen and (max-width: 576px) {
+    
+    .my-name {
+         
+    margin-left: 5px;
+         
+    }
+           
+}
+
+    
+
