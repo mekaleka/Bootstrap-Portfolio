@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!--Head element includes charset, viewport, css link, The Title & bootstrap meta & link tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,9 +13,11 @@
     <title>My Portfolio</title>
 </head>
 
+<!--Body includes a header, main and a footer-->
+
 <body>
 
-    <main>
+    <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand navbar1" href="#">
@@ -26,6 +29,7 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!--added the links to the navbar buttons About, Portfolio and Contact-->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         </li>
@@ -49,57 +53,63 @@
                 </div>
             </div>
         </nav>
-        <!--I added a container for my profile page column and rows layout-->
+    </header>
+
+    <main>
+        <!--I added a container for my Portfolio page column and rows layout-->
         <div class="container my-container">
-            <!--I added a layout for my portfolio header-->
+            <!--I added a layout for the portfolio header-->
             <div class="row justify-content-around my-row1-p">
                 <div class="col-md-12">
                     <h1 class="portfolio">Portfolio</h1>
                 </div>
             </div>
+            <!--added a thematic break for light asthetics and spacing-->
             <hr>
+            <!--added bootstrap rows and columns needed for image spacing and placement-->
             <div class="row justify-content-around my-row-p">
                 <div class="col-md-3 my-col-p">
-                    <!--add mt-4 margin top-->
+                    <!--added mt-4 to all images for spacing-->
                     <img src="https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                         class="img-fluid mt-4" alt="Responsive image">
-                    <!--make this row to create a nest row add bg-info. go to bootstrap site, text white ,justify content center ,m-n1 for margin, -->
-                    <div class="row"></div>
+                    <!--*Still need to make this a row to create a nest row add bg-info(background info). go to bootstrap site, text white ,justify content center ,m-n1 for margin*-->
                 </div>
+
                 <div class="col-md-3 my-col-p">
-                    <img src="https://cdn.pixabay.com/photo/2019/09/30/14/29/books-4515917__340.jpg" class="img-fluid"
-                        alt="Responsive image">
+                    <img src="https://cdn.pixabay.com/photo/2019/09/30/14/29/books-4515917__340.jpg"
+                        class="img-fluid mt-4" alt="Responsive image">
                 </div>
                 <div class="col-md-3 my-col-p">
                     <img src="https://images.pexels.com/photos/4316/technology-computer-chips-gigabyte.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                        class="img-fluid" alt="Responsive image">
+                        class="img-fluid mt-4" alt="Responsive image">
                 </div>
             </div>
+            <!--added line breaks for spacing-->
             <br></br>
+            <!--added bootstrap rows and columns needed for image spacing and placement-->
             <div class="row justify-content-around my-row-p">
                 <div class="col-md-3 my-col-p">
                     <img src="https://images.pexels.com/photos/158826/structure-light-led-movement-158826.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                        class="img-fluid" alt="Responsive image">
+                        class="img-fluid mt-4" alt="Responsive image">
                 </div>
                 <div class="col-md-3 my-col-p">
                     <img src="https://weraveyou.com/wp-content/uploads/2019/11/Armin-van-Buuren-Ultra-ASOT.jpg"
-                        class="img-fluid" alt="Responsive image">
+                        class="img-fluid mt-4" alt="Responsive image">
                 </div>
                 <div class="col-md-3 my-col-p">
-                    <img src="https://cdn.pixabay.com/photo/2017/04/19/13/03/coffee-2242213_1280.jpg" class="img-fluid"
-                        alt="Responsive image">
+                    <img src="https://cdn.pixabay.com/photo/2017/04/19/13/03/coffee-2242213_1280.jpg"
+                        class="img-fluid mt-4" alt="Responsive image">
                 </div>
             </div>
-</body>
-
-</html>
-</div>
-</main>
-<footer class="footer mt-auto py-3">
-    <div class="container footer-container">
-        <span class="text-muted">Copyright ©</span>
-    </div>
-</footer>
+        </div>
+    </main>
+    <!--added a bootstrap sticky footer with an additional class for css styling-->
+    <!--*still need vertical responsiveness for footer*-->
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text-muted">Copyright ©</span>
+        </div>
+    </footer>
 </body>
 
 </html>

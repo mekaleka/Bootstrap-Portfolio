@@ -1,6 +1,8 @@
 
+/*added background wallpaper*/
 body {
     background-image: url(https://cdn.pixabay.com/photo/2018/11/08/19/12/wall-3803151__340.jpg);
+    min-height: 100vh;
 }
 
 p {
@@ -42,7 +44,7 @@ p {
 h1 {
     color: teal;
 }
-
+/*created a circle image*/
 .profile-img {
     float: left;
     height: 200px;
@@ -59,22 +61,11 @@ h1 {
 .my-col1-2 {
     background-color: white;
 }
-
-.footer-container {
-    width: auto;
-    max-width: px;
-    padding: 0 15px;
-    /*need to get this border top to work*/
-    border-top: 1px teal;
-}
-  
-.footer {
-    background-color: #343a40;
-    height: 60px;
-}
-
-.footer-text {
-    text-align: center;
+/*changed the button color on the contact form*/
+.btn-color {
+    color: white;
+    background-color: teal;
+    border-color: teal;
 }
 
 .my-row1-p {
@@ -95,6 +86,20 @@ h1 {
     color: teal;
 }
 
+.contact {
+    font-size: 40px;
+    margin-top: 20px;
+    line-height: .8;
+    color: teal;
+}
+  /*bootstrap footer styling*/
+  .footer {
+    background-color: #343a40;
+    text-align: center;
+    margin-top: auto;
+  }
+  
+/*added media queries for responsiveness*/
 @media screen and (max-width: 1200px) {
     
     .my-name {

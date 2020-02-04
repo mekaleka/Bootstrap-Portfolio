@@ -1,4 +1,3 @@
-<!--doctype and lang elements-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,15 +8,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--linked css file-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>About Me</title>
 </head>
-<!--Body element includes a header with nav bar, a main element with the about me and a footer-->
+
+<!--Body includes a header, main and a footer-->
+
 <body>
-    <!--fixed the name styling and margin-->
+
     <header>
+        <!--added bootstrap navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <!--Created a container class to wrat the nav bar content-->
             <div class="container">
                 <a class="navbar-brand navbar1">
                     <!--I added my name with a my-name class for css styling-->
@@ -60,32 +62,40 @@
             <!--Created the proper rows and columns for About Me-->
             <div class="row">
                 <div class="col-md-12 my-col1">
-                    <div class="col-md-12 my-col2">
+                    <div class="col-md-12">
                         <div class="row-md-12">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <h1 class="about-me">About Me</h1>
                             </div>
-                        </div>
-                        <hr>
-                        <!--Created the proper rows and columns for profile image and the About Me text-->
-                        <div class="row">
-                            <div class="col-md-12 my-col-i">
-                                <img src="https://avatars2.githubusercontent.com/u/58678985?s=460&v=4"
-                                    class="profile-img" alt="profile image">
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo exercitationem minima
-                                    nobis dolorem repudiandae quod ratione fuga id quos, molestias sed voluptatum
-                                    dignissimos officia. Inventore cupiditate aspernatur quidem quibusdam ullam.
-                                    Reprehenderit adipisci quam beatae corporis quod modi dolore excepturi, laboriosam
-                                    labore hic, fugiat quis sed iste qui voluptates ipsum! Iure officiis voluptas a hic
-                                    itaque aut iste, quos maxime modi.
-                                    Reprehenderit amet id voluptates, cumque exercitationem voluptatem distinctio eaque
-                                    non dolor similique earum quidem nulla ea et est magnam fuga iste nihil soluta
-                                    accusantium! Libero ullam corrupti placeat consectetur illo.<br>
-                                    Laborum laboriosam doloremque quas beatae! Officiis possimus nulla hic esse ipsum
-                                    sint repellendus in aperiam laudantium, recusandae neque labore ullam facilis libero
-                                    incidunt iusto, ad optio odit accusamus similique magni.
-                                </p>
+                            <!--added a thematic break for light asthetics and spacing-->
+                            <hr>
+                            <!--Created the rows and columns for profile image and the About Me text-->
+                            <div class="row">
+                                <div class="col-md-12 my-col-i">
+                                    <img src="https://avatars2.githubusercontent.com/u/58678985?s=460&v=4"
+                                        class="profile-img img-fluid mt-4 responsive image" alt="profile image">
+                                    <p>
+                                        <!--*change LI to my About Me*-->
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo exercitationem
+                                        minima
+                                        nobis dolorem repudiandae quod ratione fuga id quos, molestias sed voluptatum
+                                        dignissimos officia. Inventore cupiditate aspernatur quidem quibusdam ullam.
+                                        Reprehenderit adipisci quam beatae corporis quod modi dolore excepturi,
+                                        laboriosam
+                                        labore hic, fugiat quis sed iste qui voluptates ipsum! Iure officiis voluptas a
+                                        hic
+                                        itaque aut iste, quos maxime modi.
+                                        Reprehenderit amet id voluptates, cumque exercitationem voluptatem distinctio
+                                        eaque
+                                        non dolor similique earum quidem nulla ea et est magnam fuga iste nihil soluta
+                                        accusantium! Libero ullam corrupti placeat consectetur illo.<br>
+                                        Laborum laboriosam doloremque quas beatae! Officiis possimus nulla hic esse
+                                        ipsum
+                                        sint repellendus in aperiam laudantium, recusandae neque labore ullam facilis
+                                        libero
+                                        incidunt iusto, ad optio odit accusamus similique magni.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -93,9 +103,10 @@
             </div>
         </div>
     </main>
-    <!--I created a sticky footer with an additional class for css styling-->
-    <footer class="footer py-3">
-        <div class="container footer-container">
+    <!--added a bootstrap sticky footer with an additional class for css styling-->
+    <!--*still need vertical responsiveness for footer*-->
+    <footer class="footer mt-auto py-3">
+        <div class="container">
             <span class="text-muted">Copyright ©</span>
         </div>
     </footer>

@@ -2,15 +2,18 @@
 <html lang="en">
 
 <head>
+    <!--Head element includes charset, viewport, css link, The Title & bootstrap meta & link tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!--link css file-->
+    <!--linked css file-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Contact Page</title>
 </head>
+
+<!--Body includes a header, main and a footer-->
 
 <body>
 
@@ -26,6 +29,7 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!--added the links to the navbar buttons About, Portfolio and Contact-->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         </li>
@@ -49,56 +53,63 @@
                 </div>
             </div>
         </nav>
-</body>
+    </header>
 
-</html>
-</header>
-<main>
-    <div class="container my-container">
-        <div class="row my-row1-2">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-12">
-                        <br>
-                        <h1>Contact</h1>
-                        <hr>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="col-md-12 my-col1-2">
-                <form>
-                    <div class="form-row">
+    <main>
+        <!--created rows and columns for layout-->
+        <div class="container my-container">
+            <div class="row my-row1-2">
+                <div class="col-md-12">
+                    <div class="row">
                         <div class="col-md-12">
-                            <label for="validationDefault01">Name</label>
-                            <input type="text" class="form-control" id="validationDefault01">
+                            <!--added a line break for spacing-->
+                            <br>
+                            <h1 class="contact">Contact</h1>
+                            <!--added a thematic break for light asthetics and spacing-->
+                            <hr>
                         </div>
                     </div>
-                    <br>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="name@example.com">
-                    </div>
-                    <br>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
-                    </div>
-                    <br>
-                    <div>
-                        <button class="btn btn-primary" type="submit">Submit form</button>
-                    </div>
-                </form>
+                </div>
+                <!--added a line breaks for spacing-->
+                <br>
+                <div class="col-md-12 my-col1-2">
+                    <form>
+                        <!--added bootstrap form code for name-->
+                        <div class="form-row">
+                            <div class="col-md-12">
+                                <label for="validationDefault01">Name</label>
+                                <input type="text" class="form-control" id="validationDefault01">
+                            </div>
+                        </div>
+                        <br>
+                        <!--added bootstrap form code for email-->
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <br>
+                        <!--added bootstrap form code for a message-->
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                        </div>
+                        <br>
+                        <div>
+                            <button class="btn btn-primary btn-color" type="submit">Submit form</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
-</main>
-<footer class="footer mt-auto py-3">
-    <div class="container footer-container">
-        <span class="text-muted footer-text">Copyright ©</span>
-    </div>
-</footer>
+    </main>
+    <!--added a bootstrap sticky footer with an additional class for css styling-->
+    <!--*still need vertical responsiveness for footer*-->
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text-muted">Copyright ©</span>
+        </div>
+    </footer>
 </body>
 
 </html>
