@@ -3,6 +3,6 @@
 
 My professional portfolio includes an about me page, a contact page and my portfolio. I have included my personal email, phone number and links to other professional sites like LinkedIn and GitHub. My professional portfolio allows me to explain who I am, what it is that I do and display some of my top projects. Creating this portfolio was challenging as it made me dig deep and strive to do my best to show what skills I have. It also motivates me to think outside the box and do something different that will stand out. 
 
-[Link to deployd App](https://mekaleka.github.io/Bootstrap-Portfolio/)
-
 Michael Plichta
+
+[Link to deployd App](https://mekaleka.github.io/Bootstrap-Portfolio/)
