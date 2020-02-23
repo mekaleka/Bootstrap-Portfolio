@@ -1,7 +1,6 @@
-
 /*added background wallpaper*/
 body {
-    background-image: url(https://cdn.pixabay.com/photo/2018/11/08/19/12/wall-3803151__340.jpg);
+    background-image: url('https://cdn.pixabay.com/photo/2018/11/08/19/12/wall-3803151__340.jpg');
     min-height: 100vh;
 }
 
@@ -10,14 +9,22 @@ p {
     line-height: 1.8em;
 }
 
+#email {
+    text-align: center;
+}
+
 
 .my-name {
-    color: white;    
+    color: white;
     font-size: 34px;
     padding: 20px;
-   margin-left: -12px;
+    margin-left: -12px;
     background-color: teal;
     font-family: sans-serif;
+}
+
+.my-email {
+    margin-left: 400px;
 }
 
 .spacing {
@@ -92,53 +99,50 @@ h1 {
     line-height: .8;
     color: teal;
 }
-  /*bootstrap footer styling*/
-  .footer {
+/*bootstrap footer styling*/
+.footer {
     background-color: #343a40;
     text-align: center;
     margin-top: auto;
-  }
-  
+}
+
 /*added media queries for responsiveness*/
-@media screen and (max-width: 1200px) {
-    
+@media screen and(max-width: 1200px) {
+
     .my-name {
-     
-       margin-left: 5px;
-     
+
+        margin-left: 5px;
+
     }
-       
+
 }
 
-@media screen and (max-width: 992px) {
-    
+@media screen and(max-width: 992px) {
+
     .my-name {
- 
-    margin-left: 5px;
- 
+
+        margin-left: 5px;
+
     }
-   
+
 }
 
-@media screen and (max-width: 768px) {
-    
+@media screen and(max-width: 768px) {
+
     .my-name {
-     
-    margin-left: 5px;
-     
+
+        margin-left: 5px;
+
     }
-       
+
 }
 
-@media screen and (max-width: 576px) {
-    
+@media screen and(max-width: 576px) {
+
     .my-name {
-         
-    margin-left: 5px;
-         
+
+        margin-left: 5px;
+
     }
-           
+
 }
-
-    
-
