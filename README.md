@@ -1,4 +1,4 @@
-# Bootstrap-Portfolio
-On this assignment I created a portfolio using Bootstrap. I used css styling to chang some elements that was pre-defined in bootstrap. I had trouble with this assignment at first as I kept trying to use css instead of bootstrap's pre-defined stylesheet. I was able to combine the bootstrap's css and some of my own css to create my page. 
+# Professional Portfolio
+My professional portfolio includes an about me page, a contact page and my portfolio. This allows  me to explain who I am, what it is that I do and display some of my top projects. Creating my brand statement was challenging as it made me dig deep and strive to do my best to display my top abilities. This project does just that and allows me to see where I am currently at. I can update it as time go's on and I complete new projects and it motivates me to think outside the box and do something different that will stand out. 
 
-[Here is the link to my deployd App](https://mekaleka.github.io/Bootstrap-Portfolio/) 
+[Link to deployd App](https://mekaleka.github.io/Bootstrap-Portfolio/)
