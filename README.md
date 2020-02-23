@@ -5,4 +5,4 @@ My professional portfolio includes an about me page, a contact page and my portf
 
 Michael Plichta
 
-[Link to deployd App](https://mekaleka.github.io/Bootstrap-Portfolio/)
+[Link to deployd App](https://mekaleka.github.io/professional-portfolio/)
